@@ -50,5 +50,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<build>
+    <finalName>my-custom-app</finalName>
+</build>
 
 </project>
