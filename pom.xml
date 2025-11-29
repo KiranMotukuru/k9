@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>my-custom-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -50,8 +51,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<build>
-    <finalName>my-custom-app</finalName>
-</build>
+	
 
 </project>
