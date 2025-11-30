@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: democontainer
-          image: sample-api
+          image: kiranmotukuru/k9
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
