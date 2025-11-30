@@ -8,6 +8,7 @@ spec:
   containers:
     - name: democontainer
       image: kiranmotukuru/k9
+      imagePullPolicy: Always
       ports:
         - containerPort: 8080
 ---
@@ -19,6 +20,6 @@ spec:
   selector:
     app: web
   ports:
-    - port: 80        # Exposed to outside
-      targetPort: 8080 # Inside container
+    - port: 80
+      targetPort: 8080
   type: LoadBalancer
