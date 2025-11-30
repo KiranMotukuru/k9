@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: democontainer
-      image: kiranmotukuru/k9
+      image: sample-api
       imagePullPolicy: Always
       ports:
         - containerPort: 8080
